@@ -11,7 +11,6 @@ const BarGraph = () => {
 
     return (
         <div>
-            <h1>Bar Graph</h1>
             <BarChart width={600} height={300} data={inputData}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                 <XAxis dataKey="name" />

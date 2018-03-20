@@ -11,7 +11,6 @@ const LineGraph = () => {
 
     return (
         <div>
-            <h1>Line Graph</h1>
             <LineChart width={400} height={400} data={inputData}>
                 <Line type="monotone" dataKey="value" stroke="#8884d8" />
                 <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />

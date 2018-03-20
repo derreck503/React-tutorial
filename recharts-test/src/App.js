@@ -8,6 +8,7 @@ import VictoryBar from './components/Victory/VictoryBar';
 import VictoryPie from './components/Victory/VictoryPie';
 import C3Bar from './components/C3/C3Bar';
 import C3Pie from './components/C3/C3Pie';
+import C3Line from './components/C3/C3Line';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <h1 className="App-title">React Chart Libraries</h1>
         </header>
         <div className="container-fluid">
+          <br />
           <div className="row">
             <h1>Recharts:</h1>
             <div className="col-md-3">
@@ -25,6 +27,8 @@ class App extends Component {
             </div>
             <div className="col-md-3">
               <BarGraph />
+            </div>
+            <div className="col-md-1">
             </div>
             <div className="col-md-3">
               <PieCharts />
@@ -41,6 +45,9 @@ class App extends Component {
           </div>
           <div className="row">
             <h1>C3:</h1>
+            <div className="col-md-3">
+              <C3Line />
+            </div>
             <div className="col-md-3">
               <C3Bar />
             </div>
