@@ -33,6 +33,8 @@ class App extends Component {
             <div className="col-md-3">
               <PieCharts />
             </div>
+            <p><strong>Pros:</strong> React based, user friendly, easy to use, and most popular react charting library.
+            &nbsp;<strong>Cons:</strong> Only works with react.</p>
           </div>
           <div className="row">
             <h1>Victory:</h1>
@@ -42,6 +44,8 @@ class App extends Component {
             <div className="col-md-3">
               <VictoryPie />
             </div>
+            <p><strong>Pros:</strong> React based, user friendly, easy to use, and most popular react charting library.
+            &nbsp;<strong>Cons:</strong> Requires a lot of configuration to look decent, wordy setup, and maintained by small company.</p>
           </div>
           <div className="row">
             <h1>C3:</h1>
@@ -54,6 +58,8 @@ class App extends Component {
             <div className="col-md-3">
               <C3Pie />
             </div>
+            <p><strong>Pros:</strong> Based off of D3 and works with non-react front-ends.
+            &nbsp;<strong>Cons:</strong> Third party wrapper library, which can be confusing to use. Also, not as popular as recharts.</p>
           </div>
         </div>
       </div>
