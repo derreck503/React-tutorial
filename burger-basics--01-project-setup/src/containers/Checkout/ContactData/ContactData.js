@@ -8,7 +8,7 @@ import Input from '../../../components/UI/Input/Input';
 
 class ContactData extends Component {
     state = {
-        orderForm = {
+        orderForm : {
             name: {
                 elementType: 'input',
                 elementConfig: {
@@ -91,7 +91,7 @@ class ContactData extends Component {
         let form = (
             <form>
                 {formElementsArray.map(formElement => (
-                    <Input elementType={formElement.config.elementType} elementConfig={formElement.config.elementConfig} value={formElement.config.value} />
+                    <Input key={formElement.id} elementType={formElement.config.elementType} elementConfig={formElement.config.elementConfig} value={formElement.config.value} />
                 ))}
                 <Button btnType="Success" clicked={this.orderHandler}>ORDER</Button>
             </form>
